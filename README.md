@@ -12,7 +12,7 @@ The following is the parts list:
 
 * [Arduino Uno ($25)](https://www.adafruit.com/products/50)
 
-* [SD card]
+* [SD card](http://www.amazon.com/SanDisk-Class-SDHC-Memory-Card/dp/B007JRB0TC)
 
 * [Shield stacking headers ($2)](https://www.adafruit.com/products/85)
 
