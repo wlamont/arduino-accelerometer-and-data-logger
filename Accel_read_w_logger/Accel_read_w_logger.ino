@@ -3,7 +3,7 @@
 #include "RTClib.h"
 
 // how many milliseconds between grabbing data and logging it. 1000 ms is once a second
-#define LOG_INTERVAL 100 // mills between entries (reduce to take more/faster data)
+#define LOG_INTERVAL 1 // mills between entries (reduce to take more/faster data)
 
 // how many milliseconds before writing the logged data permanently to disk
 // set it to the LOG_INTERVAL to write each time (safest)
@@ -62,7 +62,7 @@ void error(char *str)
 void setup()
 {
   analogReference(EXTERNAL);
-  Serial.begin(9600);      // sets the serial port to 9600
+  Serial.begin(115200);      // sets the serial port to 9600
   pinMode(button, INPUT);
 
    // use debugging LEDs
