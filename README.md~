@@ -1,6 +1,6 @@
 # arduino-accelerometer-and-data-logger
 
-An arduino based accelerometer with SD data logger shield.  
+This project was intended to create a low cost accelerometer with portable DAQ system.  The system consisted of a three axis accelerometer, an Arduino and a data logging shield.  When the user presses the start/stop (on/off) button the Arduino will start logging the output from the accelerometer.  
 
 The following is the parts list:
 
